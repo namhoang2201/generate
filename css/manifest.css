@@ -1,0 +1,200 @@
+#root {
+    min-height: 1000px
+}
+
+.container {
+    min-height: 1000px;
+    background-color: #fff
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #48d1cc;
+    padding: 10px
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center
+}
+
+.logo a img {
+    width: 80px;
+    height: auto
+}
+
+.title {
+    display: inline-flex;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center
+}
+
+.selection{
+    margin-top: 30px;
+    width: 100%;
+}
+.selection .container{
+    min-height: unset;
+}
+.selection .row{
+    margin-bottom: 10px;
+}
+.selection .myform label{
+    display: block;
+}
+.selection p{
+    padding: 0 15px;
+    font-size: 17px;
+}
+.selection input{
+    border: 1px solid #d0d0d0;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #222;
+    font-size: 16px;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 10px 25px 10px 10px;
+    width: 100%;
+}
+.selection .mainform .container .row #special-col{
+    margin-top: -67px !important;
+}
+.selection .mainform .container .row #special-col h5{
+    font-weight: 700;
+}.selection .mainform .container .row #special-col input{
+    cursor: pointer;
+}
+ .selection .btn.upload{
+     float: left;
+     height: 3rem;
+     line-height: 3rem;
+     padding-left: 17px;
+     padding-right: 17px;
+ }
+ .selection .file-field{
+     position: relative;
+     width: 100%;
+     margin-left: auto;
+     left: auto;
+     right: auto;
+ }
+.selection .btn.upload span i{
+    font-size: 1.3rem;
+    cursor: pointer;
+ }
+.selection .btn.upload span i::before{
+    font-size: 35px;
+    cursor: pointer;
+ }
+.selection .btn.upload span{
+    text-align: center;
+    cursor: pointer;
+ }
+.selection .btn.upload input[type="file"]{
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 20px;
+      cursor: pointer;
+      opacity: 0;
+ }
+.selection .file-field .file-path-wrapper{
+    overflow: hidden;
+    padding-left: 10px;
+}
+.selection .file-field .file-path-wrapper{
+    /*background-color: transparent;*/
+    /*border: none;*/
+    /*border-bottom: 1px solid #9e9e9e;*/
+    /*border-radius: 0;*/
+    /*outline: none;*/
+    /*height: 3rem;*/
+    /*width: 100%;*/
+    /*font-size: 1rem;*/
+    /*margin: 0 0 15px 0;*/
+    /*padding: 0;*/
+    /*box-shadow: none;*/
+    /*box-sizing: content-box;*/
+    /*transition: all .3s;*/
+}
+.selection p.center{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
+.selection p.center button{
+    margin: auto;
+    background-color: #f69435;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+    padding: 13px 41px 13px 40.32px;
+}
+
+.hljs-section, .hljs-class .hljs-title, .hljs-type, .hljs-attr, .hljs-built_in, .hljs-builtin-name, .hljs-params{
+    color: red;
+}
+.hljs-string{
+    color: green;
+}
+
+@media (max-width: 1200px) {
+    .modal .modal-dialog {
+        width: 80%
+    }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 500px) {
+    .wrap {
+        margin-top: 20px;
+        justify-content: unset
+    }
+
+    .wrap .logo img {
+        width: 50px;
+        height: 50px
+    }
+
+    .wrap .title {
+        font-size: 25px;
+        margin-left: 20px;
+        padding: 10px
+    }
+
+
+
+}
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 320px) {
+    .wrap .title {
+        font-size: 20px
+    }
+}

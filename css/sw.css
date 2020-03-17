@@ -1,0 +1,124 @@
+#root {
+    min-height: 1000px
+}
+
+.container {
+    min-height: 1000px;
+    background-color: #fff
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #48d1cc;
+    padding: 10px
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center
+}
+
+.logo a img {
+    width: 80px;
+    height: auto
+}
+
+.title {
+    display: inline-flex;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    justify-content: center
+}
+
+.selection{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    min-height: 150px;
+}
+
+.selection .manifest{
+    display: inline-flex;
+    width: 30%;
+    text-align: center;
+    background-color: #48d1cc;
+}
+.selection .manifest a{
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+.selection .manifest a:hover{
+    color: #f69435;
+}
+.selection .service-worker{
+    display: inline-flex;
+    width: 30%;
+    text-align: center;
+    background-color: #48d1cc;
+}
+.selection .service-worker a{
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+}
+.selection .service-worker a:hover{
+    color: #f69435;
+}
+
+
+
+@media (max-width: 1200px) {
+    .modal .modal-dialog {
+        width: 80%
+    }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 500px) {
+    .wrap {
+        margin-top: 20px;
+        justify-content: unset
+    }
+
+    .wrap .logo img {
+        width: 50px;
+        height: 50px
+    }
+
+    .wrap .title {
+        font-size: 25px;
+        margin-left: 20px;
+        padding: 10px
+    }
+
+
+
+}
+
+@media (max-width: 414px) {
+
+}
+
+@media (max-width: 320px) {
+    .wrap .title {
+        font-size: 20px
+    }
+}
