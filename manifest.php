@@ -93,7 +93,7 @@
                                         <div class="file-field input-field col s12">
                                             <div class="btn upload">
                                                 <span><i class="icon-cloud-upload"></i></span>
-                                                <input type="file" name="icon" />
+                                                <input type="file" name="icon" class="input-above" />
                                             </div>
                                             <div class="file-path-wrapper">
                                                 <input name="icon" class="file-path validate" type="text" />
