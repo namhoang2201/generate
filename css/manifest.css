@@ -98,6 +98,15 @@
     display: inline-block;
     padding: 13px 41px 13px 40.32px;
 }
+.selection p.center button:focus{
+    outline: unset;
+}
+.selection p.center button:hover{
+    background: white;
+    border: 2px solid #f69435;
+    color: #f69435;
+    font-weight: 700;
+}
 
 .hljs-section, .hljs-class .hljs-title, .hljs-type, .hljs-attr, .hljs-built_in, .hljs-builtin-name, .hljs-params{
     color: red;

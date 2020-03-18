@@ -57,7 +57,7 @@
     color: black;
 }
 .selection .manifest a:hover{
-      color: #f69435;
+      color: #fff;
   }
 .selection .service-worker{
     display: inline-flex;
