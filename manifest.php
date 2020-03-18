@@ -44,7 +44,7 @@
                                     </div>
                                     <div class="input-field col-md-4">
                                         <label for="themecolor">Theme Color</label>
-                                        <input class="jscolor color" value="48d1cc" name="theme_color" id="themecolor"/>
+                                        <input class="jscolor {hash:true} color" value="48d1cc" name="theme_color" id="themecolor"/>
                                     </div>
                                 </div>
                                 <div class="row">
@@ -58,7 +58,7 @@
                                     </div>
                                     <div class="input-field col-md-4">
                                         <label for="bgcolor">Background Color</label>
-                                        <input class="jscolor color" value="48d1cc" name="background_color"
+                                        <input class="jscolor {hash:true} color" value="48d1cc" name="background_color"
                                                id="bgcolor"/>
                                     </div>
                                 </div>
